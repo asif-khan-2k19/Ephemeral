@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Poppins:wght@100;300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    font-family: "Nimbus Sans L";
+    font-weight: 100;
+}
+
+.navbar{
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 9vw;
+    font-size: 1.8vmin;
+}
+
+.navbar .nav-left{
+    display: flex;
+    gap: 50px;
+}
+
+.navbar .nav-center{
+    margin-left: -9vw;
+    cursor: pointer;
+}
+
+.navbar .nav-right{
+    cursor: pointer;
+}
+.hero{
+    position: relative;
+    top: 15vw;
+    max-width: 100%;
+    min-height: 100vh;
+    padding: 0px 9vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Nimbus Sans L";
+    font-weight: 100;
+}
+
+.hero .hero-left{
+    margin-top: -300px;
+}
+
+.hero .hero-left h3{
+    margin-top: -4px;
+    margin-bottom: 10px;
+    letter-spacing: -.5px;
+    font-size: 18px;
+}
+
+.hero .hero-left p{
+    font-size: 12px;
+    letter-spacing: -.1px;
+    width: 220px;
+    opacity: .7;
+    margin-bottom: 20px;
+}
+
+.hero .hero-left-img{
+    position: relative;
+    width: 150px;
+    height: 220px;
+    overflow: hidden;
+}
+#pinkgreenplant{
+    width: 150px;
+    height: 220px;
+}
+
+.hero .hero-center{
+    position: relative;
+    margin-left: -60px;
+}
+
+.hero .hero-center .name{
+    transform-origin: bottom right;
+    position: absolute;
+    line-height: 75px;
+    margin-top: -111px;
+    margin-left: -50px;
+    font-size: 3vw;
+    letter-spacing: -4px;
+    z-index: 99;
+}
+
+.hero .hero-center h2{
+    margin-top: 30px;
+    width: 225px;
+    letter-spacing: -.7px;
+    font-size: 1.8vw;
+}
+
+#pinkplant{
+    width: 30vw;
+    height: 40vw;
+}
+
+.hero .hero-right{
+    margin-top: -300px;
+    display: flex;
+    align-items: center;
+}
+.hero .hero-right .arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgba(0, 0, 0, 0.6 );
+    border-radius: 50%;
+}
+
+.hero .hero-right p{
+    opacity: .6;
+    margin-left: 7px;
+    font-size: 14px;
+    letter-spacing: -.1px;
+}
+
+.motive{
+    position: relative;
+    margin-top:18vw ;
+    padding: 0px 12vw;
+}
+
+.motive h3{
+    margin-bottom: 2vw ;
+    font-size: 1.5vw;
+    opacity: .6;
+    letter-spacing: -1px;
+}
+.motive h1{
+    margin-left: auto;
+    text-align: right;
+    width: 68vw;
+    letter-spacing: -1.7px;
+    font-size: 2.3vw;
+    line-height: 4vw;
+}
+
+.pictures{
+    display: flex;
+    justify-content: space-between;
+    padding: 12vw 20vw;
+    padding-right: 14vw;
+}
+
+.firstpic .picimage{
+    width: 15vw;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.picimage #pic1{
+    width: 100%;
+    height: 24vw;
+    object-fit: cover;
+}
+.firstpic h2, .secpic h2{
+    font-size: 2vw;
+}
+.firstpic p, .secpic p{
+    opacity: .8;
+    margin-top: 8px;
+    width: 13vw;
+    font-size: 1vw;
+    letter-spacing: -1px;
+}
+
+.secpic{
+    text-align: right;
+}
+.secpic p{
+    margin-left: auto;
+}
+.secpic .picimage{
+    width: 24vw;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.picimage #pic2{
+    width: 100%;
+    height: 36vw;
+    object-fit: cover;
+}
+
+.banner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.banner .bimg{
+    width: 65%;
+    height: 70vh;
+    background-color: red;
+}
+
+.banner .bimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0% 70%;
+}
+#bottle2{
+    display: block;
+}
+.banner .btext{
+    width: 35%;
+    padding: 0 3vw;
+}
+
+.banner .btext h1{
+    font-size: 2.4vw;
+    line-height: 1;
+}
+
+.banner .btext p{
+    font-size: 1vw;
+    margin-top: 15px;
+    width: 60%;
+    letter-spacing: -.1px;
+}
+
+.future{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top:4vw ;
+}
+
+.future video{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    object-fit: cover;
+}
+.future .ftext{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2vw 3vw;
+}
+.ftext h1{
+    font-size: 2vw;
+}
+.ftext button{
+    font-size: .7vw;
+    margin-top: 10px;
+    padding: .7vw 1.2vw;
+    border-radius: 100px;
+    border:2px solid #dadada;
+    color: #8f8f8f;
+    background:transparent;
+    cursor: pointer;
+}
+
+
+
+
+@media (max-width: 900px) {
+    *{
+        font-family: 'poppins';
+        font-weight: 500;
+    }
+    .navbar{
+        height: 60px;
+        font-size: 3vw;
+        flex-direction: row-reverse;
+        padding:0px 4vw ;
+    }
+    .navbar .nav-left{
+        gap: 7vw;
+        font-size: 14px;
+    }
+    
+    .navbar .nav-center{
+        margin-left: 0px;
+    }
+    .navbar .nav-center h4{
+        font-weight: 800;
+        font-size: 5vw;
+    }
+    .navbar .nav-right{
+        display: none;
+    }
+    .hero{
+        margin-top: 16vh;
+        flex-direction: column-reverse;
+        gap: 50vh;
+    }
+    
+    .hero .hero-left{
+        margin-left: 14vw;
+    }
+    .hero .hero-left h3{
+        margin-top: -4px;
+        margin-bottom: 5px;
+        letter-spacing: -.5px;
+        font-size: 25px;
+    }
+
+    .hero .hero-left-img{
+        position: relative;
+        width: 250px;
+        height: 300px;
+        overflow: hidden;
+    }
+
+    .hero .hero-center{
+        position: relative;
+        margin-left: 0px;
+    }
+    
+    .hero .hero-center .name{
+        transform-origin: bottom right;
+        position: absolute;
+        line-height: 12vmin;
+        margin-top: -80px;
+        margin-left: -30px;
+        font-size: 6vw;
+        letter-spacing: -2px;
+        z-index: 99;
+    }
+    
+    .hero .hero-center h2{
+        margin-top: 20px;
+        width: 50vw;
+        letter-spacing: -.7px;
+        font-size: 4vmin;
+        line-height: 1.2;
+    }
+    
+    #pinkplant{
+        width: 70vw;
+        height: 100vw;
+    }
+    
+    .hero .hero-right{
+        display: none;
+    }
+    .motive{
+        margin: 30vw 0px;
+        margin-bottom: 25vw;
+    }
+    .motive h3{
+        font-size: 4.5vw;
+        text-align: center;
+    }
+    .motive h1{
+        margin: auto;
+        text-align: center;
+        width: 70vw;
+        letter-spacing: -.8px;
+        font-size: 5vw;
+        line-height: 6.5vw;
+    }
+    .pictures{
+        flex-direction: column;
+        gap: 50px;
+        padding-left: 7vw;
+        padding-right: 10vw;
+    }
+    .firstpic .picimage{
+        width: 50vw;
+        object-fit: cover;
+        margin-bottom: 0px;
+    }
+    
+    .picimage #pic1{
+        width: 100%;
+        height: 70vw;
+        object-fit: cover;
+    }
+    .firstpic h2, .secpic h2{
+        font-size: 8.5vw;
+    }
+    .firstpic p, .secpic p{
+        opacity: .8;
+        margin-top: 10px;
+        width: 40vw;
+        font-size: 3vw;
+        letter-spacing: -1px;
+    }
+    
+    .secpic p{
+        text-align: right;
+        margin-left: auto;
+    }
+    .secpic .picimage{
+        width: 62vw;
+        object-fit: cover;
+        margin-bottom: 0px;
+        margin-left: auto;
+    }
+    
+    .picimage #pic2{
+        width: 100%;
+        height: 100vw;
+        object-fit: cover;
+    }
+
+    .banner{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 4vw;
+        padding: 10vw 0vw;
+    }
+    
+    .banner .bimg{
+        width: 100%;
+        height: 50vh;
+        background-color: red;
+    }
+    
+    .banner .bimg img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 0% 70%;
+    }
+    #bottle2{
+        display: none;
+    }
+    .banner .btext{
+        padding: 1vw 0;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .banner .btext h1{
+        font-size: 7vw;
+        line-height: 1.1;
+        letter-spacing: -1px;
+    }
+    
+    .banner .btext p{
+        margin: 0 auto;
+        font-size: 3vw;
+        margin-top: 15px;
+        letter-spacing: -.1px;
+    }
+    .future .ftext{
+        border-radius: 4px;
+        background-color: #ffffff;
+    }
+    .ftext h1{
+        font-size: 3vw;
+    }
+    .ftext button{
+        font-size: 1.5vw;
+        margin-top: 5px;
+        padding: .7vw 1.2vw;
+        border-radius: 100px;
+        border:1px solid #dadada;
+        color: #8f8f8f;
+        background:transparent;
+        cursor: pointer;
+    }
+}
